@@ -1,6 +1,11 @@
 <!DOCTYPE html>
+
+<?php
+  header('location: /index.php', true, 301);
+?>
+
+
 <title>DK-Technologies, Unit Main Page</title>
-<link rel="icon" href="http://192.168.1.19/online/favicon.ico">
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -22,12 +27,12 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 
 <div class="w3-panel w3-border  w3-light-grey w3-round-large">
   <B><CENTER>
-   Main info..
+   This page is missing...
   </CENTER></B>	
 </div>
 
 
-  <?php include '../www/includes/footer.php'; ?>  
+  <?php include '../www/include/footer.php'; ?>  
 
 </body>
 </html> 
