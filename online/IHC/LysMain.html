@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Lysstyring</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+    <meta charset='utf-8'>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <script src="//192.168.1.10/online/IHC/main.js"></script>
+
+    <style>
+        body {
+            font-size: 140%;
+        }
+
+        #main {
+            display: table;
+            margin: auto;
+            padding: 0 10px 0 10px;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        #Lystaste {
+            padding: 10px 10px 10px 10px;
+            width: 100%;
+            background-color: #50FF50;
+            font-size: 120%;
+        }
+
+        #TXT_button {
+            padding: 10px 10px 10px 10px;
+            width: 100%;
+            background-color: #50FF50;
+            font-size: 120%;
+        }
+    </style>
+
+</head>
+<body>
+    <div id='main'>
+        <h2>Lysstyring</h2>
+        <input type="button" id="Lystaste" onclick="switchLED()" value="ON" />
+        <input type="button" id="TXT_button" value="" />
+    </div>
+</body>
+</html>
+

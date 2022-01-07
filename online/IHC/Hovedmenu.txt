@@ -1,0 +1,12 @@
+[2J
+[80D[K[21C**************************************[80D
+[K[21C!   Velkommen til LK IHC systemet    !
+[80D[K[21C!    Controller Ver.  6.54   DK      !
+[80D[K[21C**************************************[80D
+[K[24C********** Hovedmenu **********[80D
+[K[24C! 1=Servicemenu               ![80D
+[K[24C! 2=Modemmenu                 ![80D
+[K[24C! 3=Programmeringsmenu        ![80D
+[K[24C*******************************
+                             Indtast dit valg ?..: [s
+[80D[K[7m<F1>Hj‘lp <F9>Taster                                   <Ù>Accepter <Esc>Tilbage

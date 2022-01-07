@@ -1,0 +1,33 @@
+[0m[1;73H10[5m:[0m01[16;46H          [10D[1B          [10D[8;28HIHC-SYSTEM[9;28HTryk <Esc>[0m[1;73H10[5m:[0m01[8;28H          [10D[1B          [10D[20;5HIHC-SYSTEM[21;5HTryk <Esc>[0m[1;73H10[5m:[0m01[20;5H          [10D[1B          [10D[16;60HIHC-SYSTEM[17;60HTryk <Esc>[0m[1;73H10[5m:[0m01[16;60H          [10D[1B          [10D[17;35HIHC-SYSTEM[18;35HTryk <Esc>[2J
+[80D[K[21C**************************************[80D
+[K[21C!   Velkommen til LK IHC systemet    !
+[80D[K[21C!    Controller Ver.  6.54   DK      !
+[80D[K[21C**************************************[80D
+[K[24C********** Hovedmenu **********[80D
+[K[24C! 1=Servicemenu               ![80D
+[K[24C! 2=Modemmenu                 ![80D
+[K[24C! 3=Programmeringsmenu        ![80D
+[K[24C*******************************
+                             Indtast dit valg ?..: [s
+[80D[K[7m<F1>Hj‘lp <F9>Taster                                   <Ù>Accepter <Esc>Tilbage[0m[u [1D1[1D [1D1[1D[1C[1D
+[K[1A[K[2J************************** Moduler tilsluttet RS485 ***************************
+[80D[K[37CINGEN
+
+[80D[K[23C********** Servicemenu ***********[80D
+[K[23C! 1=Vis  Indgange og Udgange     ![80D
+[K[23C! 2=Vis  Udgange  og Timere      ![80D
+[K[23C! 3=Vis  Grupper  og Timere      ![80D
+[K[23C! 4=Tvangsstyring af udgange     ![80D
+[K[23C! 5=Tvangsstyring af grupper     ![80D
+[K[23C! 6=Tvangsaktivering af indgange ![80D
+[K[23C! 7=Vis forekomne fejl           ![80D
+[K[23C! 8=Slet ALT !!                  ![80D
+[K[23C! 9=Kalibrer ur                  ![80D
+[K[23C!10=Vis Timere 1-128 (tt:mm:ss)  ![80D
+[K[23C!11=Vis/S‘t T‘llerv‘rdier        !
+[80D[K[23C!12=Upload   (gem)  data         ![80D
+[K[23C!13=Download (hent) data         !
+[80D[K[23C**********************************
+                             Indtast dit valg ?..: [s
+[80D[K[7m<F1>Hj‘lp <F9>Taster                                   <Ù>Accepter <Esc>Tilbage[0m[u  [2D1[1D  [2D1[1D[1C[1D[2J[0;0H------------------------------ Indgangs Status --------------------------------- [s[0m[0m[u[11;0H------------------------------ Udgangs  Status --------------------------------- [20;0H--------------------------- Intern Udgangs Status ------------------------------[24;0HExit, tryk en tast[s[0m[12;10H003[13;10H023[0m[u  [2D4[1D[1C[1D[2J[11;0H------------------------------ Udgangs  Status --------------------------------- [20;0H--------------------------- Intern Udgangs Status ------------------------------[0;0H[s[0m[13;10H023[0m[uIndtast nummeret p† udgangen, der skal styres  . . . .(1-198): [s
+[80D[K[7m<F1>Hj‘lp <F9>Taster                                   <Ù>Accepter <Esc>Tilbage[0m[u   [3D31[2D
