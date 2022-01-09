@@ -1,0 +1,37 @@
+<?php
+  echo "<META name=\"keywords\" lang=\"en\" content=\"DK, DK-Meter, Hansens, DK-Technologies, DK-Audio, PTV, DAG-2000, Audio, Video, Sync, Color Analyser, MSD, Bargraph, Audio Meter, SPG, DKMeter, DK1, DK2, DK5, DKT7, DKT7++\" />\n";
+  $DBHOST      = "nas";
+
+   // $DownloadPath = "http://www.hansens.dk/download/";
+   $LocalDownloadPath = "http://download.hansens.dk/";
+   $DownloadPath = "http://download.hansens.dk/";
+
+  $IpAddress = $_SERVER["REMOTE_ADDR"];
+  $pos =  strpos($IpAddress, "92.168.1.91");  
+  if ($pos == 1 ) {
+  $DownloadPath = "";
+  }
+  
+  $ip = '79.134.123.250';
+
+//  $json_data = file_get_contents("http://apinotes.com/ipaddress/ip.php?ip=$IpAddress");
+  $ip_data = json_decode($json_data, TRUE);
+  switch ($ip_data['country_code']) {
+	  case "DK":
+	  	$PriceDir = "dkk";
+	  	break;
+	  default:
+	    $PriceDir = "euro";
+  }
+  
+  $PriceDir = "euro";
+?>
+
+<link rel="icon" href="http://www.hansens.dk/favicon.ico?">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
