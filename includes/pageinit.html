@@ -5,6 +5,20 @@
    // $DownloadPath = "http://www.hansens.dk/download/";
    $LocalDownloadPath = "http://download.hansens.dk/";
    $DownloadPath = "http://download.hansens.dk/";
+   
+    include("/home/n115288/dkmeterupdate.hansens.dk/rmconfig.php");
+
+
+	$con = mysqli_connect(DB_HOSTNAME,DB_USERNAME,DB_PASSWORD, DB_DATABASE);
+	$result = mysqli_query($con,"SELECT * FROM exeinfo WHERE IDX=4");
+	if (mysqli_num_rows($result) > 0) {
+         while($row = mysqli_fetch_assoc($result)) {
+			$LocalDownloadPath = $row["EXEReleaseDate"];
+			$DownloadPath = $LocalDownloadPath;
+          }
+    } 
+		
+	mysqli_close($con);
 
   $IpAddress = $_SERVER["REMOTE_ADDR"];
   $pos =  strpos($IpAddress, "92.168.1.91");  
@@ -27,7 +41,7 @@
   $PriceDir = "euro";
 ?>
 
-<link rel="icon" href="http://www.hansens.dk/favicon.ico?">
+<link rel="icon" href="favicon.ico?">
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
