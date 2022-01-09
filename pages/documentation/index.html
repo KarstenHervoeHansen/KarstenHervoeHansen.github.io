@@ -14,14 +14,8 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
   <div class="w3-bar w3-red w3-card">
     <a class="w3-bar-item w3-button w3-padding-large  w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="ToggleSideMenu()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
     <a href="/index.html" class="w3-bar-item w3-button w3-large">Home</i></a>
- 
- <div class="w3-dropdown-hover w3-hide-small">
-  <button class="w3-large w3-button" title="DK1-DK5">DKMeter's <i class="fa fa-caret-down"></i></button>     
-  <div class="w3-dropdown-content w3-bar-block w3-card-4">
-    <?php include 'dropdowns/list1.php'; ?>  
-  </div>
-</div>    
- <!--
+    <div id="dkmeter"></div> 
+  <!--
     <?php include '../horizontal/dkmeter.php'; ?>
     <?php include '../horizontal/dkt7.php'; ?>  
     <?php include '../horizontal/msd.php'; ?>
@@ -55,6 +49,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
 $(function(){ 
   $("#header").load("/includes/pageinit.html");  
   $("#footer").load("/includes/footer.html");  
+   $("#dkmeter").load("/pages/horizontal/dkmeter.html");  
 }); 
 </script>   
 
