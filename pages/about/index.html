@@ -40,12 +40,17 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
 
   </div>
 
-  <?php include '../../includes/footer.php'; ?>  
+<div id="footer"></div> 
    
 <!-- End Page Content -->
 </div>
 
-
+<script>  
+$(function(){ 
+  $("#header").load("//includes/pageinit.html");  
+  $("#footer").load("//includes/footer.html");  
+}); 
+</script>   
 
 
 
