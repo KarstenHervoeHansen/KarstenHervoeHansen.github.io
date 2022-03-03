@@ -1,0 +1,180 @@
+<html>
+<title>Documentation</title>
+<script src="https://www.w3schools.com/lib/w3.js"></script>
+
+<div w3-include-HTML="/includes/pageinit.html"></div><script>w3.includeHTML();</script>
+
+ 
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+</style>
+
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-red w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large  w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="ToggleSideMenu()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="/index.html" class="w3-bar-item w3-button w3-large">Home</i></a>
+    <div class="w3-dropdown-hover w3-hide-small">
+       <button class="w3-large w3-button" title="DK1-DK5">DKMeter's <i class="fa fa-caret-down"></i></button>     
+       <div class="w3-dropdown-content w3-bar-block w3-card-4"><div w3-include-HTML="/pages/documentation/dropdowns/list1.html"></div></div>    
+       <button class="w3-large w3-button" title="All Models including PT0T7">DKT7's <i class="fa fa-caret-down"></i></button>     
+       <div class="w3-dropdown-content w3-bar-block w3-card-4"><div w3-include-HTML="/pages/documentation/dropdowns/list2.html"></div></div>	   
+	   
+	   
+	   
+    <?php include '../horizontal/dkmeter.php'; ?>
+    <?php include '../horizontal/dkt7.php'; ?>  
+    <?php include '../horizontal/msd.php'; ?>
+    <?php include '../horizontal/pt0760.php'; ?>    
+    <?php include '../horizontal/spg.php'; ?> 
+<!--    <?php include '../horizontal/colour.php'; ?>   -->
+    <?php include '../horizontal/ntp.php'; ?> 
+
+  </div>
+</div>
+
+<!-- Navbar on small screens -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+
+  <?php include '../vertical/dkmeter.php'; ?>
+  <?php include '../vertical/dkt7.php'; ?> 
+<!--  <?php include '../vertical/pt0760.php'; ?>    -->
+<!--  <?php include '../vertical/msd.php'; ?>  -->
+<!--  <?php include '../vertical/spg.php'; ?>  -->
+<!--  <?php include '../vertical/colour.php'; ?>    -->
+<!--  <?php include '../vertical/ntp.php'; ?>       -->
+
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">Documentation Download</h1>
+      <p>Important notice. Registered non-commercial users are free to download from the dropdown list. The documentation provided is copyright protected by the company www.hansens.dk of Denmark. Please note: The manufacture any of the listed products are subject to a royalty fee payable to www.hansens.dk upon a written accept from the company.</p>
+    </div>
+  </div>
+    
+<!-- End Page Content -->
+</div>
+<!--<div w3-include-HTML="/pages/scripts/standard.html">-->
+<div w3-include-HTML="/includes/footer.html"></div><script>w3.includeHTML();</script>
+
+<!-- <?php include '../scripts/standard.php'; ?> -->
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function ToggleSideMenu() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+
+
+//************************************************
+function Acc1Func() {
+    var x = document.getElementById("Acc1");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+
+document.getElementById("Btn1").click();
+
+//************************************************
+function Acc2Func() {
+    var x = document.getElementById("Acc2");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+
+document.getElementById("Btn2").click();
+
+
+//**************************************
+function Acc3Func() {
+    var x = document.getElementById("Acc3");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+
+document.getElementById("Btn3").click();
+
+//**************************************
+function Acc4Func() {
+    var x = document.getElementById("Acc4");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+
+document.getElementById("Btn4").click();
+
+//**************************************
+function Acc5Func() {
+    var x = document.getElementById("Acc5");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+
+document.getElementById("Btn5").click();
+
+//**************************************
+function Acc6Func() {
+    var x = document.getElementById("Acc6");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+
+document.getElementById("Btn6").click();
+
+//**************************************
+function Acc7Func() {
+    var x = document.getElementById("Acc7");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+
+document.getElementById("Btn7").click();
+
+//**************************************
+function Acc8Func() {
+    var x = document.getElementById("Acc8");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+
+document.getElementById("Btn8").click();
+
+</script>
+
+</body>
+</html>

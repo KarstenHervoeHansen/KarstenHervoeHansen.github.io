@@ -1,0 +1,32 @@
+[Main]
+Description=This package will initiate to the default values erasing all licenses.
+Path=
+DKMeterMode=1
+[0]
+CPN=$FF
+CDA=$00062
+CS=1 Byte
+CMT=18874368
+CDD=Modify EEPROM Byte
+CR=Modify EEPROM Byte
+[1]
+CPN=$FF
+CDA=$00063
+CS=1 Byte
+CMT=18874368
+CDD=Modify EEPROM Byte
+CR=Modify EEPROM Byte
+[2]
+CPN=$FF
+CDA=$00064
+CS=1 Byte
+CMT=18874368
+CDD=Modify EEPROM Byte
+CR=Modify EEPROM Byte
+[3]
+CPN=$FF
+CDA=$00065
+CS=1 Byte
+CMT=18874368
+CDD=Modify EEPROM Byte
+CR=Modify EEPROM Byte

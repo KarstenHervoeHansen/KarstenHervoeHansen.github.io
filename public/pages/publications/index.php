@@ -1,0 +1,62 @@
+<html>
+<title>Publications</title>
+
+<?php include '../../includes/pageinit.php'; ?>  
+
+
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+</style>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-red w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large  w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="ToggleSideMenu()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="/index.php" class="w3-bar-item w3-button w3-large">Home</i></a>
+    
+    <?php include '../horizontal/dkmeter.php'; ?>
+    <?php include '../horizontal/dkt7.php'; ?>
+    <?php include '../horizontal/pt0760.php'; ?> 
+<!--    <?php include '../horizontal/msd.php'; ?>      -->
+    <?php include '../horizontal/spg.php'; ?> 
+<!--    <?php include '../horizontal/colour.php'; ?>   -->
+    <?php include '../horizontal/ntp.php'; ?> 
+    <?php include '../horizontal/papers.php'; ?>
+
+  </div>
+</div>
+
+<!-- Navbar on small screens -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+
+  <?php include '../vertical/dkmeter.php'; ?> 
+  <?php include '../vertical/dkt7.php'; ?>
+<!--  <?php include '../vertical/pt0760.php'; ?>    -->
+<!--  <?php include '../vertical/msd.php'; ?>       -->
+  <?php include '../vertical/spg.php'; ?> 
+<!--  <?php include '../vertical/colour.php'; ?>    -->
+<!--  <?php include '../vertical/ntp.php'; ?>       -->
+   <?php include '../vertical/papers.php'; ?>
+
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">Publications Download as</h1>
+    </div>
+
+  </div>
+
+  <?php include '../../includes/footer.php'; ?>  
+   
+<!-- End Page Content -->
+</div>
+
+
+<?php include '../scripts/standard.php'; ?> 
+
+</body>
+</html>

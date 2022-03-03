@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /include/
+Disallow: /prices/
+Disallow: /dkmeterupdate/
+Disallow: /download/
+Disallow: /wiki/
