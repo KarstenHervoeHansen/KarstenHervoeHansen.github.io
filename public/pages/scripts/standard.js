@@ -1,5 +1,5 @@
 
-<script>
+
 // Used to toggle the menu on small screens when clicking on the menu button
 function ToggleSideMenu() {
     var x = document.getElementById("navDemo");
@@ -108,4 +108,3 @@ function Acc8Func() {
 
 document.getElementById("Btn8").click();
 
-</script>

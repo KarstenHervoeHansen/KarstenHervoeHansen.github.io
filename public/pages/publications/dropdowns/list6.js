@@ -1,0 +1,2 @@
+document.write('<a href="papers/Colour/Practical_guide_to _Monitor_calibration.PDF" class="w3-bar-item w3-button" title="Monitor Brightness, Contrast and Colour Calibration A Practical Guide">PM 5639 Colour Analyser Guide</a>')
+document.write('<a href="papers/Colour/Technical_note_on_PM5639.PDF" class="w3-bar-item w3-button" title="Calibration of Colour Analysers">PM 5639 Calibration of Colour Analysers</a>')

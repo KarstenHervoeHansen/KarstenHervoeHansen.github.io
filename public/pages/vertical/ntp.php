@@ -1,4 +1,0 @@
-<a onclick="Acc7Func()" href="javascript:void(0)" class="w3-bar-item w3-button w3-padding-large" id="Btn7">DAG2000 and NTP <i class="fa fa-caret-down"></i></a>
-<div id="Acc7" class="w3-bar-item w3-hide w3-padding-large w3-medium">
-  <?php include 'dropdowns/list7.php'; ?>  
-</div>

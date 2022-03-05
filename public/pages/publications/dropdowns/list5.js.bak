@@ -1,5 +1,0 @@
-document.write('<a href="spg/PT5202/PT5202 08012009.pdf" class="w3-bar-item w3-button" title="Compact VariTimeTM Sync Generator,PT5202">PT5202 Sync Generator Datasheet</a>')
-document.write('<a href="spg/PT5210/PT5210 datasheet 060426.pdf" class="w3-bar-item w3-button" title="Compact VariTimeTM Sync Generator,PT5210">PT5210 Sync Generator Datasheet</a>')
-document.write('<a href="spg/PT5211/pt5211.pdf" class="w3-bar-item w3-button" title="Datasheet Change Over PT5211">PT5211 Change Over Datasheet</a>')
-document.write('<a href="spg/PT5300/pt5300.pdf" class="w3-bar-item w3-button" title="Datasheet HD Sync Generator PT5300">PT5300 Sync Generator Datasheet</a>')
-document.write('<a href="spg/PT8613/PT8613.pdf" class="w3-bar-item w3-button" title="Datasheet HD Test Signal Generator PT8613">PT8613 HD Test Signal Generator Datasheet</a>')
