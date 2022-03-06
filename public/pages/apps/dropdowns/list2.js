@@ -1,0 +1,5 @@
+document.write('<a href="dkt7/DK_MatrixII.exe" class="w3-bar-item w3-button" title="Off-line configuration Tool for setup of the assignments to the Bargraph Section">DK-Matrix II, Dec. 2017</a>')
+document.write('<a href="dkt7/DKMeterScreenGrab_v1304.zip" class="w3-bar-item w3-button" title="Screen grabber utility">DK-Meter Screen Grabber, 1.3.0.4</a>')
+document.write('<a href="dkmeter/DK Meter Screengrabber manual 1.1.pdf" class="w3-bar-item w3-button" title="DK METER Screen Grabber, User Manual">DK METER Screen Grabber, User Manual</a>')
+document.write('<a href="dkt7/DK-Logging v.1.5.0.1.zip" class="w3-bar-item w3-button" title="Logging utility">DK-Logging, 1.5.0.1</a>')
+document.write('<a href="dkt7/DK Logging User Manual 1_1.pdf" class="w3-bar-item w3-button" title="DK-Logging Users Manual for all Models within the DK1 to DK5 Family">DK-Logging Users Manual v1.1</a>')

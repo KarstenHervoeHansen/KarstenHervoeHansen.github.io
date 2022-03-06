@@ -14,11 +14,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
     <a class="w3-bar-item w3-button w3-padding-large  w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="ToggleSideMenu()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
     <a href="/" class="w3-bar-item w3-button w3-large">Home</i></a>
 
-<!-- <?php include '../horizontal/dkmeter.php'; ?> -->
-    <?php include '../horizontal/dkt7.php'; ?>    
-    <?php include '../horizontal/msd.php'; ?> 
-    <?php include '../horizontal/pt0760.php'; ?>
-    <?php include '../horizontal/spg.php'; ?>
+
 
   </div>
 </div>
@@ -26,20 +22,12 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
 <!-- Navbar on small screens -->
 <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
 
-<!--  <?php include '../vertical/dkmeter.php'; ?> -->
-  <?php include '../vertical/dkt7.php'; ?> 
-  
-<!--  <?php include '../vertical/pt0760.php'; ?>  -->
-<!--  <?php include '../vertical/msd.php'; ?>  -->
-  <?php include '../vertical/spg.php'; ?> 
 
 </div>
 
 <!-- Page content -->
 <div class="w3-content" style="max-width:2000px;margin-top:46px">
 
-
-  <!--<?php include "../../prices/" . $PriceDir . "/list.php"; ?> -->
 
 
   <div class="w3-row w3-padding-128">

@@ -1,0 +1,7 @@
+document.write('<a href="papers/ProductShowcase.pdf" class="w3-bar-item w3-button" title="Product Showcase, Legacy">Legacy Product Showcase</a>')
+document.write('<a href="Audio/Objective Reading of Loudness of a Sound Programme.pdf" class="w3-bar-item w3-button" title="AES 100th Convention, 1996 May 11-14">Objective Reading of Loudness of a Sound Programme, 1996 Karsten Hansen</a>')
+document.write('<a href="papers/Audio/Matrix.pdf" class="w3-bar-item w3-button" title="MSD600M Matrix Layout">MSD600M Logical Routing, Karsten Hansen</a>')
+document.write('<a href="papers/Audio/Audio Levels.pdf" class="w3-bar-item w3-button" title="Sample of Audio Levels and Readings">Audio Levels and Readings, Sample, 2007 Eddy Bøgh Brixen</a>')
+document.write('<a href="papers/Audio/True-peak interpolation filter comparison.pdf" class="w3-bar-item w3-button" title="True-peak interpolation filter comparison ITU-R BS.1770-3 example vs DK-Technologies">True-peak interpolation filter comparison, 2012 Thomas Holm Hansen</a>')
+document.write('<a href="papers/Audio/StarFish.pdf" class="w3-bar-item w3-button" title="Starfish Display MSD600M family">MSD600M Understanding the Starfish Display, Karsten Hansen</a>')
+document.write('<a href="papers/Video/SMPTE 299M Embedding of Audio Packets.pdf" class="w3-bar-item w3-button" title="SMPTE 299M Embedding of Audio Packets">SMPTE 299M Embedding of Audio Packets, Karsten Hansen</a>')

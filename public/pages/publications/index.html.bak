@@ -26,12 +26,13 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
 
 <!-- Navbar on small screens -->
 <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
-   <script src="/pages/vertical/dkmeter.js" type="text/javascript"></script>
-   <script src="/pages/vertical/dkt7.js" type="text/javascript"></script>
-   <script src="/pages/vertical/pt0760.js" type="text/javascript"></script>
-   <script src="/pages/vertical/spg.js" type="text/javascript"></script>   
-   <script src="/pages/vertical/colour.js" type="text/javascript"></script>   
-   <script src="/pages/vertical/ntp.js" type="text/javascript"></script> 
+<script src="/pages/vertical/dkmeter.js" type="text/javascript"></script>
+<script src="/pages/vertical/dkt7.js" type="text/javascript"></script>
+<script src="/pages/vertical/pt0760.js" type="text/javascript"></script>
+<script src="/pages/vertical/spg.js" type="text/javascript"></script>
+<script src="/pages/vertical/colour.js" type="text/javascript"></script>
+<script src="/pages/vertical/ntp.js" type="text/javascript"></script>
+<script src="/pages/vertical/papers.js" type="text/javascript"></script>
 </div>
 
 <!-- Page content -->
@@ -59,8 +60,3 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
 </body>
 </html>
 
-
-
-
-<!--  <?php include '../vertical/ntp.php'; ?>       -->
-   <?php include '../vertical/papers.php'; ?>
