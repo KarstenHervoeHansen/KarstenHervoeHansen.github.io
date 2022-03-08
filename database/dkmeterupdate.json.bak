@@ -1,0 +1,39 @@
+{
+  "exeinfo" : {
+    "0" : {
+      "EXEName" : "dkmeterupdate",
+      "EXEVerMajor" : 1,
+	  "EXEVerMinor" : 6,
+	  "EXEVerRelease" : 0,
+	  "EXEVerBuild" : 1,
+	  "EXEReleaseDate" :"2017-07-14"
+    },
+    "1" : {
+      "EXEName" : "dkmeteronline",
+      "EXEVerMajor" : 2,
+  	  "EXEVerMinor" : 0,
+  	  "EXEVerRelease" : 3,
+	  "EXEVerBuild" : 0,
+	  "EXEReleaseDate" :"2018-10-23"	  
+    }
+  },
+  "updates" : {
+    "0" : {
+      "EXEName" : "dkmeterupdate",
+      "EXEVerMajor" : 1,
+	  "EXEVerMinor" : 6,
+	  "EXEVerRelease" : 0,
+	  "EXEVerBuild" : 1,
+	  "EXEReleaseDate" :"2017-07-14"
+    },
+    "1" : {
+      "EXEName" : "dkmeteronline",
+      "EXEVerMajor" : 2,
+  	  "EXEVerMinor" : 0,
+  	  "EXEVerRelease" : 3,
+	  "EXEVerBuild" : 0,
+	  "EXEReleaseDate" :"2018-10-23"	  
+    }
+  }
+
+}
