@@ -1,63 +1,104 @@
 {
-  "exeinfo" : {
-    "0" : {
-      "EXEName" : "dkmeterupdate",
-      "EXEVerMajor" : 1,
-	  "EXEVerMinor" : 6,
-	  "EXEVerRelease" : 0,
-	  "EXEVerBuild" : 1,
-	  "EXEReleaseDate" :"2017-07-14"
-    },
-    "1" : {
-      "EXEName" : "dkmeteronline",
-      "EXEVerMajor" : 2,
-  	  "EXEVerMinor" : 0,
-  	  "EXEVerRelease" : 3,
-	  "EXEVerBuild" : 0,
-	  "EXEReleaseDate" :"2018-10-23"	  
-    },
-    "2" : {
-      "EXEName" : "PAMPiCoSoftwareUtility",
-      "EXEVerMajor" : 1,
-  	  "EXEVerMinor" : 6,
-  	  "EXEVerRelease" : 0,
-	  "EXEVerBuild" : 1,
-	  "EXEReleaseDate" :"2017-07-14"	  
-    },
-    "3" : {
-      "EXEName" : "PAMPiCoOnline",
-      "EXEVerMajor" : 2,
-  	  "EXEVerMinor" : 0,
-  	  "EXEVerRelease" : 3,
-	  "EXEVerBuild" : 0,
-	  "EXEReleaseDate" :"2018-10-23"	  
-    },
-    "4" : {
-      "EXEName" : "LocalFilePath",
-      "EXEVerMajor" : 0,
-  	  "EXEVerMinor" : 0,
-  	  "EXEVerRelease" : 0,
-	  "EXEVerBuild" : 0,
-	  "EXEReleaseDate" :"http://download.hansens.dk/"	  
-    }	
-  },
+  "exeinfo" : [ {
+    "EXEName" : "dkmeterupdate",
+    "EXEReleaseDate" : "2017-07-14",
+    "EXEVerBuild" : 1,
+    "EXEVerMajor" : 1,
+    "EXEVerMinor" : 6,
+    "EXEVerRelease" : 0
+  }, {
+    "EXEName" : "dkmeteronline",
+    "EXEReleaseDate" : "2018-10-23",
+    "EXEVerBuild" : 0,
+    "EXEVerMajor" : 2,
+    "EXEVerMinor" : 0,
+    "EXEVerRelease" : 3
+  }, {
+    "EXEName" : "PAMPiCoSoftwareUtility",
+    "EXEReleaseDate" : "2017-07-14",
+    "EXEVerBuild" : 1,
+    "EXEVerMajor" : 1,
+    "EXEVerMinor" : 6,
+    "EXEVerRelease" : 0
+  }, {
+    "EXEName" : "PAMPiCoOnline",
+    "EXEReleaseDate" : "2018-10-23",
+    "EXEVerBuild" : 0,
+    "EXEVerMajor" : 2,
+    "EXEVerMinor" : 0,
+    "EXEVerRelease" : 3
+  }, {
+    "EXEName" : "LocalFilePath",
+    "EXEReleaseDate" : "http://download.hansens.dk/",
+    "EXEVerBuild" : 0,
+    "EXEVerMajor" : 0,
+    "EXEVerMinor" : 0,
+    "EXEVerRelease" : 0
+  } ],
   "updates" : {
-    "0" : {
-      "EXEName" : "dkmeterupdate",
-      "EXEVerMajor" : 1,
-	  "EXEVerMinor" : 6,
-	  "EXEVerRelease" : 0,
-	  "EXEVerBuild" : 1,
-	  "EXEReleaseDate" :"2017-07-14"
+    "208" : {
+      "FactoryPath" : "/home/n115288/download/software/dkmeter/1-2FactoryUpdate(2019-05-27-ID29).CDP",
+      "PackageID" : 29,
+      "ReleaseDate" : "2019-05-27",
+      "ReleaseInfo" : "This package contain release 2019-05-27 of the DSP software and firmware",
+      "UpdateMinID" : 29,
+      "UpdatePath" : "/home/n115288/download/software/dkmeter/1-2FactoryUpdate(2019-05-27-ID29).CDP"
     },
-    "1" : {
-      "EXEName" : "dkmeteronline",
-      "EXEVerMajor" : 2,
-  	  "EXEVerMinor" : 0,
-  	  "EXEVerRelease" : 3,
-	  "EXEVerBuild" : 0,
-	  "EXEReleaseDate" :"2018-10-23"	  
+    "209" : {
+      "FactoryPath" : "/home/n115288/download/software/dkmeter/3 - 4 - 5 Factory Update (2015-07-06 - ID 26).CDP",
+      "PackageID" : 26,
+      "ReleaseDate" : "2015-07-04",
+      "ReleaseInfo" : "This package contain release 2015-07-04 of the DSP software. It also contain version 1.28 of the MCU software and firmware v.101.",
+      "UpdateMinID" : 1,
+      "UpdatePath" : "/home/n115288/download/software/dkmeter/3 - 4 - 5 Software Update (2015-07-06 - ID 26).CDP"
+    },
+    "210" : {
+      "FactoryPath" : "/home/n115288/download/software/dkt7/T7FactoryUpdate(2017-07-13-ID28).CDP",
+      "PackageID" : 28,
+      "ReleaseDate" : "2017-07-13",
+      "ReleaseInfo" : "This package contain software version 2017-07-13. It also contain firmware for the MCU the ARM Processor and FPGA.",
+      "UpdateMinID" : 16,
+      "UpdatePath" : "/home/n115288/download/software/dkt7/T7SoftwareUpdate(2017-07-13-ID28).CDP"
+    },
+    "211" : {
+      "FactoryPath" : "/home/n115288/download/software/dkt7/T7FactoryUpdate(2017-07-13-ID28).CDP",
+      "PackageID" : 28,
+      "ReleaseDate" : "2017-07-13",
+      "ReleaseInfo" : "This package contain software version 2017-07-13. It also contain firmware for the MCU the ARM Processor and FPGA.",
+      "UpdateMinID" : 16,
+      "UpdatePath" : "/home/n115288/download/software/dkt7/T7SoftwareUpdate(2017-07-13-ID28).CDP"
+    },
+    "220" : {
+      "FactoryPath" : "/home/n115288/download/software/dkmeter/1-2FactoryUpdate(2019-05-27-ID29).CDP",
+      "PackageID" : 29,
+      "ReleaseDate" : "2018-04-12",
+      "ReleaseInfo" : "This package contain release 2018-04-12 of the DSP software. It also contain version 1.36 of the MCU software and firmware v.87.",
+      "UpdateMinID" : 29,
+      "UpdatePath" : "/home/n115288/download/software/dkmeter/1-2FactoryUpdate(2019-05-27-ID29).CDP"
+    },
+    "221" : {
+      "FactoryPath" : "/home/n115288/download/software/dkmeter/3 - 4 - 5 Factory Update (2015-07-06 - ID 26).CDP",
+      "PackageID" : 26,
+      "ReleaseDate" : "2015-07-04",
+      "ReleaseInfo" : "This package contain release 2015-07-04 of the DSP software. It also contain version 1.28 of the MCU software and firmware v.101.",
+      "UpdateMinID" : 4,
+      "UpdatePath" : "/home/n115288/download/software/dkmeter/3 - 4 - 5 Software Update (2015-07-06 - ID 26).CDP"
+    },
+    "222" : {
+      "FactoryPath" : "/home/n115288/download/software/dkt7/T7FactoryUpdate(2017-07-13-ID28).CDP",
+      "PackageID" : 28,
+      "ReleaseDate" : "2017-07-13",
+      "ReleaseInfo" : "This package contain software version 2017-07-13. It also contain firmware for the MCU the ARM Processor and FPGA.",
+      "UpdateMinID" : 16,
+      "UpdatePath" : "/home/n115288/download/software/dkt7/T7SoftwareUpdate(2017-07-13-ID28).CDP"
+    },
+    "223" : {
+      "FactoryPath" : "/home/n115288/download/software/dkt7/T7FactoryUpdate(2017-07-13-ID28).CDP",
+      "PackageID" : 28,
+      "ReleaseDate" : "2017-07-13",
+      "ReleaseInfo" : "This package contain software version 2017-07-13. It also contain firmware for the MCU the ARM Processor and FPGA.",
+      "UpdateMinID" : 16,
+      "UpdatePath" : "/home/n115288/download/software/dkt7/T7SoftwareUpdate(2017-07-13-ID28).CDP"
     }
   }
-
 }
