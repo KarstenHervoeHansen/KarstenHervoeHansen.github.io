@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>getinfo</title>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-database.js"></script>
+
+    <script>
+        // REPLACE WITH YOUR web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyDM1ljaHZdARWnGn7STNWev_mQ2yvVNQs4",
+            authDomain: "esp32-firebase-demo-54041.firebaseapp.com",
+            databaseURL: "https://esp32-firebase-demo-54041-default-rtdb.europe-west1.firebasedatabase.app",
+            projectId: "esp32-firebase-demo-54041",
+            storageBucket: "esp32-firebase-demo-54041.appspot.com",
+            messagingSenderId: "315033631412",
+            appId: "1:315033631412:web:a9b3418ac5feb538bf75e1"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        var database = firebase.database();
+    </script>
+
+    <script src="getinfo.js" defer></script>
+</head>
+<body>
+    //<p><span id="EXEVerMajor"></span><span id="EXEVerMinor"></span><span id="EXEVerRelease"></span><span id="EXEVerBuild"></span><span id="EXEReleaseDate"></span></p>
+</body>
+</html>
