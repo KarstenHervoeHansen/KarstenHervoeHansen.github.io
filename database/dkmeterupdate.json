@@ -131828,7 +131828,8 @@
       "ReleaseDate" : "2019-05-27",
       "ReleaseInfo" : "This package contain release 2019-05-27 of the DSP software and firmware",
       "UpdateMinID" : 29,
-      "UpdatePath" : "/home/n115288/download/software/dkmeter/1-2FactoryUpdate(2019-05-27-ID29).CDP"
+      "UpdatePath" : "/home/n115288/download/software/dkmeter/1-2FactoryUpdate(2019-05-27-ID29).CDP",
+	  "DevType":"dkMeter DK1 / DK2"
     },
     "209" : {
       "FactoryPath" : "/home/n115288/download/software/dkmeter/3 - 4 - 5 Factory Update (2015-07-06 - ID 26).CDP",
@@ -131836,7 +131837,8 @@
       "ReleaseDate" : "2015-07-04",
       "ReleaseInfo" : "This package contain release 2015-07-04 of the DSP software. It also contain version 1.28 of the MCU software and firmware v.101.",
       "UpdateMinID" : 1,
-      "UpdatePath" : "/home/n115288/download/software/dkmeter/3 - 4 - 5 Software Update (2015-07-06 - ID 26).CDP"
+      "UpdatePath" : "/home/n115288/download/software/dkmeter/3 - 4 - 5 Software Update (2015-07-06 - ID 26).CDP",
+	  "DevType":"dkMeter DK3 / DK4"
     },
     "210" : {
       "FactoryPath" : "/home/n115288/download/software/dkt7/T7FactoryUpdate(2017-07-13-ID28).CDP",
@@ -131844,7 +131846,8 @@
       "ReleaseDate" : "2017-07-13",
       "ReleaseInfo" : "This package contain software version 2017-07-13. It also contain firmware for the MCU the ARM Processor and FPGA.",
       "UpdateMinID" : 16,
-      "UpdatePath" : "/home/n115288/download/software/dkt7/T7SoftwareUpdate(2017-07-13-ID28).CDP"
+      "UpdatePath" : "/home/n115288/download/software/dkt7/T7SoftwareUpdate(2017-07-13-ID28).CDP",
+	  "DevType":"dkMeter DK T7"
     },
     "211" : {
       "FactoryPath" : "/home/n115288/download/software/dkt7/T7FactoryUpdate(2017-07-13-ID28).CDP",
@@ -131852,7 +131855,8 @@
       "ReleaseDate" : "2017-07-13",
       "ReleaseInfo" : "This package contain software version 2017-07-13. It also contain firmware for the MCU the ARM Processor and FPGA.",
       "UpdateMinID" : 16,
-      "UpdatePath" : "/home/n115288/download/software/dkt7/T7SoftwareUpdate(2017-07-13-ID28).CDP"
+      "UpdatePath" : "/home/n115288/download/software/dkt7/T7SoftwareUpdate(2017-07-13-ID28).CDP",
+	  "DevType":"dkMeter DK T7 WFM"
     },
     "220" : {
       "FactoryPath" : "/home/n115288/download/software/dkmeter/1-2FactoryUpdate(2019-05-27-ID29).CDP",
@@ -131860,7 +131864,8 @@
       "ReleaseDate" : "2018-04-12",
       "ReleaseInfo" : "This package contain release 2018-04-12 of the DSP software. It also contain version 1.36 of the MCU software and firmware v.87.",
       "UpdateMinID" : 29,
-      "UpdatePath" : "/home/n115288/download/software/dkmeter/1-2FactoryUpdate(2019-05-27-ID29).CDP"
+      "UpdatePath" : "/home/n115288/download/software/dkmeter/1-2FactoryUpdate(2019-05-27-ID29).CDP",
+	  "DevType":"PAM Pico 1 / 2"
     },
     "221" : {
       "FactoryPath" : "/home/n115288/download/software/dkmeter/3 - 4 - 5 Factory Update (2015-07-06 - ID 26).CDP",
@@ -131868,7 +131873,8 @@
       "ReleaseDate" : "2015-07-04",
       "ReleaseInfo" : "This package contain release 2015-07-04 of the DSP software. It also contain version 1.28 of the MCU software and firmware v.101.",
       "UpdateMinID" : 4,
-      "UpdatePath" : "/home/n115288/download/software/dkmeter/3 - 4 - 5 Software Update (2015-07-06 - ID 26).CDP"
+      "UpdatePath" : "/home/n115288/download/software/dkmeter/3 - 4 - 5 Software Update (2015-07-06 - ID 26).CDP",
+	  "DevType":"PAM Pico 3 / 4"
     },
     "222" : {
       "FactoryPath" : "/home/n115288/download/software/dkt7/T7FactoryUpdate(2017-07-13-ID28).CDP",
@@ -131876,7 +131882,8 @@
       "ReleaseDate" : "2017-07-13",
       "ReleaseInfo" : "This package contain software version 2017-07-13. It also contain firmware for the MCU the ARM Processor and FPGA.",
       "UpdateMinID" : 16,
-      "UpdatePath" : "/home/n115288/download/software/dkt7/T7SoftwareUpdate(2017-07-13-ID28).CDP"
+      "UpdatePath" : "/home/n115288/download/software/dkt7/T7SoftwareUpdate(2017-07-13-ID28).CDP",
+	  "DevType":"PAM Pico T7"
     },
     "223" : {
       "FactoryPath" : "/home/n115288/download/software/dkt7/T7FactoryUpdate(2017-07-13-ID28).CDP",
@@ -131884,7 +131891,8 @@
       "ReleaseDate" : "2017-07-13",
       "ReleaseInfo" : "This package contain software version 2017-07-13. It also contain firmware for the MCU the ARM Processor and FPGA.",
       "UpdateMinID" : 16,
-      "UpdatePath" : "/home/n115288/download/software/dkt7/T7SoftwareUpdate(2017-07-13-ID28).CDP"
+      "UpdatePath" : "/home/n115288/download/software/dkt7/T7SoftwareUpdate(2017-07-13-ID28).CDP",
+	  "DevType":"PAM Pico T7 WFM"
     }
   },
 
