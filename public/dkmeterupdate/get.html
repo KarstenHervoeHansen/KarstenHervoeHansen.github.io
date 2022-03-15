@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>dkmeterupdate</title>
+    <link rel="icon" href="//hansen/online/IHC/favicon.ico?">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+    <meta charset='utf-8'>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use https://firebase.google.com/docs/web/setup#available-libraries -->
+
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-database.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+
+    <script>
+        // REPLACE WITH YOUR web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyDM1ljaHZdARWnGn7STNWev_mQ2yvVNQs4",
+            authDomain: "esp32-firebase-demo-54041.firebaseapp.com",
+            databaseURL: "https://esp32-firebase-demo-54041-default-rtdb.europe-west1.firebasedatabase.app",
+            projectId: "esp32-firebase-demo-54041",
+            storageBucket: "esp32-firebase-demo-54041.appspot.com",
+            messagingSenderId: "315033631412",
+            appId: "1:315033631412:web:a9b3418ac5feb538bf75e1"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+
+    </script>
+
+    <script src="get.js"></script>
+    <script src="main.js"></script>
+
+    <style>
+        body {
+            font-size: 100%;
+        }
+
+        button, input {
+            width: 260px;
+            text-align: left;
+        }
+
+        #Information {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            font-size: 18px;
+            width: 100%;
+        }
+
+            #Information td {
+                border: 1px solid #ddd;
+                padding: 8px;
+            }
+
+            #Information tr:nth-child(even) {
+                background-color: #f2f2f2;
+            }
+
+            #Information tr:hover {
+                background-color: #ddd;
+            }
+
+            #Information th {
+                padding-top: 12px;
+                padding-bottom: 12px;
+                padding: 8px;
+                text-align: left;
+                background-color: #4CAF50;
+                color: white;
+                border: 1px solid green;
+            }
+    </style>
+
+</head>
+
+<body>
+    <table id="Information">
+        <tbody id="tbody"></tbody>
+    </table>
+</body>
+</html>
+
