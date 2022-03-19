@@ -36,18 +36,31 @@ document.addEventListener('DOMContentLoaded', () => {
  * output stream.
  */
 async function connect() {
+    const filter = { usbVendorId: 0x10C4 };//], usbProductId: 0x86BE };
+
     // CODELAB: Add code to request & open port here.
     // - Request a port and open a connection.
     port = await navigator.serial.requestPort();
     // - Wait for the port to open.
-    await port.open({ baudrate: 9600 });
+    await port.open({ baudRate: 115200 });
 
 
     // CODELAB: Add code setup the output stream here.
+    const encoder = new TextEncoderStream();
+    outputDone = encoder.readable.pipeTo(port.writable);
+    outputStream = encoder.writable;
 
     // CODELAB: Send CTRL-C and turn off echo on REPL
+    writeToStream('@ATVER\r', 'echo(false);');
 
     // CODELAB: Add code to read the stream here.
+    let decoder = new TextDecoderStream();
+    inputDone = port.readable.pipeTo(decoder.writable);
+    inputStream = decoder.readable
+        .pipeThrough(new TransformStream(new LineBreakTransformer()));
+
+    reader = inputStream.getReader();
+    readLoop();
 
 }
 
@@ -61,10 +74,24 @@ async function disconnect() {
     sendGrid();
 
     // CODELAB: Close the input stream (reader).
+    if (reader) {
+        await reader.cancel();
+        await inputDone.catch(() => { });
+        reader = null;
+        inputDone = null;
+    }
 
     // CODELAB: Close the output stream.
+    if (outputStream) {
+        await outputStream.getWriter().close();
+        await outputDone;
+        outputStream = null;
+        outputDone = null;
+    }
 
     // CODELAB: Close the port.
+    await port.close();
+    port = null;
 
 }
 
@@ -75,6 +102,11 @@ async function disconnect() {
  */
 async function clickConnect() {
     // CODELAB: Add disconnect code here.
+    if (port) {
+        await disconnect();
+        toggleUIConnected(false);
+        return;
+    }
 
     // CODELAB: Add connect code here.
     await connect();
@@ -93,6 +125,17 @@ async function clickConnect() {
  */
 async function readLoop() {
     // CODELAB: Add read loop here.
+    while (true) {
+        const { value, done } = await reader.read();
+        if (value) {
+            log.textContent += value + '\n';
+        }
+        if (done) {
+            console.log('[readLoop] DONE', done);
+            reader.releaseLock();
+            break;
+        }
+    }
 
 }
 
@@ -114,6 +157,12 @@ function sendGrid() {
  */
 function writeToStream(...lines) {
     // CODELAB: Write to output stream
+    const writer = outputStream.getWriter();
+    lines.forEach((line) => {
+        console.log('[SEND]', line);
+        writer.write(line + '\n');
+    });
+    writer.releaseLock();
 
 }
 
@@ -141,11 +190,16 @@ class LineBreakTransformer {
 
     transform(chunk, controller) {
         // CODELAB: Handle incoming chunk
+        this.container += chunk;
+        const lines = this.container.split('\r');
+        this.container = lines.pop();
+        lines.forEach(line => controller.enqueue(line));
 
     }
 
     flush(controller) {
         // CODELAB: Flush the stream.
+        controller.enqueue(this.container);
 
     }
 }
