@@ -1,8 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dkmeterupdate</title>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-database.js"></script>
+
+
+      <script>
+        // REPLACE WITH YOUR web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyBWUjPP3e1pXp3wE0MbIs-5N48cPONNvrE",
+            authDomain: "webserver-e7289.firebaseapp.com",
+            databaseURL:"https://webserver-e7289-default-rtdb.europe-west1.firebasedatabase.app",
+            projectId: "webserver-e7289",
+            storageBucket: "webserver-e7289.appspot.com",
+            messagingSenderId: "855280101271",
+            appId: "1:315033631412:web:a9b3418ac5feb538bf75e1"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+
+    </script>
+
+    <script src="get.js" ></script>
+
+</head>
+
+
+
 <?php
-//Includer Database Config
+
 include("rmconfig.php");
 
-    WriteLog('Hotel getfile','start');
+
+   WriteLog('Hotel getfile','start');
     
 	function WriteLog($logtext, $logdata)
 	{
@@ -168,3 +206,8 @@ include("rmconfig.php");
     WriteLog('Hotel getfile','slut');
 	    
 ?>
+
+<body>
+    <!--<p><span id="Response"></span></p>-->
+</body>
+</html>

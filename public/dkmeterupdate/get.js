@@ -1,3 +1,5 @@
+
+
 var database = firebase.database();
 const params = new URLSearchParams(window.location.search);
 var file = params.get('file');
@@ -35,11 +37,7 @@ if (params.has('exever')) {
 
 database.ref('updates/nonvalid/UpdatePath').on('value', (snapshot) => {
     nonvalidfile = snapshot.val();
-    var q ='QUERY:';
-    for (const param of params) {
-        q = q+param+'|';
-    }
-    WriteLog(q);
+
 });
 
 //get.html?id=10230dff72abde0c33ef91e8f2a875c6&packageid=28&deviceid=210&serial=35163

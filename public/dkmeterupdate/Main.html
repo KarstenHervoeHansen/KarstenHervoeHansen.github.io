@@ -33,8 +33,9 @@
 
     </script>
 
-    <script src="get.js"></script>
-    <script src="main.js"></script>
+
+    <!--<script src="get.js"></script> -->
+    <!--<script src="main.js"></script> -->
 
     <style>
         body {
@@ -53,28 +54,28 @@
             width: 100%;
         }
 
-        #Information td {
-            border: 1px solid #ddd;
-            padding: 8px;
-        }
+            #Information td {
+                border: 1px solid #ddd;
+                padding: 8px;
+            }
 
-        #Information tr:nth-child(even) {
-            background-color: #f2f2f2;
-        }
+            #Information tr:nth-child(even) {
+                background-color: #f2f2f2;
+            }
 
-        #Information tr:hover {
-            background-color: #ddd;
-        }
+            #Information tr:hover {
+                background-color: #ddd;
+            }
 
-        #Information th {
-            padding-top: 12px;
-            padding-bottom: 12px;
-            padding: 8px;
-            text-align: left;
-            background-color: #4CAF50;
-            color: white;
-            border: 1px solid green;
-        }
+            #Information th {
+                padding-top: 12px;
+                padding-bottom: 12px;
+                padding: 8px;
+                text-align: left;
+                background-color: #4CAF50;
+                color: white;
+                border: 1px solid green;
+            }
     </style>
 
 </head>
@@ -83,6 +84,20 @@
     <table id="Information">
         <tbody id="tbody"></tbody>
     </table>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', async () => {
+            let devices = await navigator.usb.getDevices();
+            devices.forEach(device => {
+                console.log(device);
+                // Add |device| to the UI.
+            });
+        });
+    </script>
 </body>
+
+
+
+
 </html>
 

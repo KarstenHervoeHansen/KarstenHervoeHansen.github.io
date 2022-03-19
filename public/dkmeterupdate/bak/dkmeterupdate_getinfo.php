@@ -121,7 +121,7 @@ include("rmconfig.php");
   		{
 	  		$value = $sDevType."|0";//0;
   		} 		
-  		return $value; //dkMeter DK T7|0
+  		return $value;
 	}
 	
 

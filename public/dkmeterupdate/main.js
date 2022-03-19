@@ -1,5 +1,11 @@
 //
+
 $(document).ready(function () {
+	var q = 'QUERY:';
+	for (const param of params) {
+		q = q + param + '|';
+	}
+	WriteLog(q);
 
 	if (params.has('exeinfo')) {
 		database.ref('exeinfo/').on('value', function (snapshot) {
@@ -24,6 +30,7 @@ $(document).ready(function () {
 		htmls.push('<p>log: Last Log data</p><br>');
 		$('#tbody').html(htmls);
 	}
+
 
 });
 
@@ -50,6 +57,7 @@ function DeleteLog() {
 	database.ref('log').remove();
 	window.location.reload();
 }
+
 
 
 
