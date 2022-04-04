@@ -51,7 +51,7 @@ async function connect() {
     outputStream = encoder.writable;
 
     // CODELAB: Send CTRL-C and turn off echo on REPL
-    writeToStream('@ATVER\r', 'echo(true);');
+    writeToStream('@ATVER\r', 'echo(false);');
 
     // CODELAB: Add code to read the stream here.
     let decoder = new TextDecoderStream();

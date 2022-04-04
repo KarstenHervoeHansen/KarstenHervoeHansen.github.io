@@ -1,0 +1,122 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>DK-Web Updater Experimental</title>
+    <meta charset="utf-8">
+    <meta name="codelab" content="getting-started-w-web-serial">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script>
+        // Redirect to HTTPS if HTTP is requested.
+        if (window.location.protocol === 'http:') {
+            window.location.href = 'https:' + window.location.href.substring(5);
+        }
+    </script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+    <style>
+        body {
+            font-size: 100%;
+        }
+
+        button, input {
+            width: 160px;
+            height:50px;
+            text-align: left;
+        }
+
+        #Information {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            font-size: 18px;
+            width: 100%;
+        }
+
+            #Information td {
+                border: 1px solid #ddd;
+                padding: 8px;
+            }
+
+            #Information tr:nth-child(even) {
+                background-color: #f2f2f2;
+            }
+
+            #Information tr:hover {
+                background-color: #ddd;
+            }
+
+            #Information th {
+                padding-top: 12px;
+                padding-bottom: 12px;
+                padding: 8px;
+                text-align: left;
+                background-color: #4CAF50;
+                color: white;
+                border: 1px solid green;
+            }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <h1>DK-Web Updater Experimental</h1>
+    </header>
+    <main class="main">
+        <div id="notSupported" class="hidden">
+            Sorry, <b>Web Serial</b> is not supported on this device, make sure you're
+            running Chrome 78 or later and have enabled the
+            <code>#enable-experimental-web-platform-features</code> flag in
+            <code>chrome://flags</code>
+        </div>
+        <!--<a href="https://glitch.com/edit/#!/remix/web-serial-codelab-start">Remix Glitch</a>-->
+        <br>
+        <button id="butConnect" type="button">Connect</button>
+        <!--
+        <div id="microbit">
+            <span class="mb-button" id="leftBut"></span>
+            <span class="mb-matrix">
+                <div>
+                    <input disabled class="led" type="checkbox" id="led-r0-c0">
+                    <input disabled class="led" type="checkbox" id="led-r0-c1">
+                    <input disabled class="led" type="checkbox" id="led-r0-c2">
+                    <input disabled class="led" type="checkbox" id="led-r0-c3">
+                    <input disabled class="led" type="checkbox" id="led-r0-c4">
+                </div>
+                <div>
+                    <input disabled class="led" type="checkbox" id="led-r1-c0">
+                    <input disabled class="led" type="checkbox" id="led-r1-c1">
+                    <input disabled class="led" type="checkbox" id="led-r1-c2">
+                    <input disabled class="led" type="checkbox" id="led-r1-c3">
+                    <input disabled class="led" type="checkbox" id="led-r1-c4">
+                </div>
+                <div>
+                    <input disabled class="led" type="checkbox" id="led-r2-c0">
+                    <input disabled class="led" type="checkbox" id="led-r2-c1">
+                    <input disabled class="led" type="checkbox" id="led-r2-c2">
+                    <input disabled class="led" type="checkbox" id="led-r2-c3">
+                    <input disabled class="led" type="checkbox" id="led-r2-c4">
+                </div>
+                <div>
+                    <input disabled class="led" type="checkbox" id="led-r3-c0">
+                    <input disabled class="led" type="checkbox" id="led-r3-c1">
+                    <input disabled class="led" type="checkbox" id="led-r3-c2">
+                    <input disabled class="led" type="checkbox" id="led-r3-c3">
+                    <input disabled class="led" type="checkbox" id="led-r3-c4">
+                </div>
+                <div>
+                    <input disabled class="led" type="checkbox" id="led-r4-c0">
+                    <input disabled class="led" type="checkbox" id="led-r4-c1">
+                    <input disabled class="led" type="checkbox" id="led-r4-c2">
+                    <input disabled class="led" type="checkbox" id="led-r4-c3">
+                    <input disabled class="led" type="checkbox" id="led-r4-c4">
+                </div>
+            </span>
+            <span class="mb-button" id="rightBut"></span>
+        </div>
+        -->
+
+        <pre id="log"></pre>
+    </main>
+</body>
+</html>
