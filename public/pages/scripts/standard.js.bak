@@ -21,7 +21,7 @@ function Acc1Func() {
     }
 }
 
-//document.getElementById("Btn1").click();
+document.getElementById("Btn1").click();
 
 //************************************************
 function Acc2Func() {
